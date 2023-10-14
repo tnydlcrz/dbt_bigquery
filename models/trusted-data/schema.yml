@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: stores
+    config:
+      schema: trusted_data_tony2
+    columns:
+      - name: store_id
+        description: Id de la Tienda
+        tests:
+          - unique
+          - not_null              
+      - name: hub_id
+        description: Id de Hub
+      - name: store_name
+        description: Nombre de la Tienda
+      - name: store_segment
+        description: Nombre de Segmento
+      - name: store_plan_price
+        description: Precio del Plan de la Tienda
+      - name: store_latitud
+        description: Latitud de la Tienda
+      - name: store_longitud
+        description: Longitud de la Tienda   
+  - name: drivers
+    config:
+      schema: trusted_data_tony2
+    columns:
+      - name: driver_id
+        description: Id del Drive
+      - name: driver_modal
+        description: Modo de movilidad
+      - name: driver_type
+        description: Tipo de contratación
