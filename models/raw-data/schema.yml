@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: delivery_raw
+    schema: delivery_raw 
+    tables:
+      - name: stores
+      - name: channels
+      - name: deliveries
+      - name: drivers
+      - name: hubs
+      - name: payments
+      - name: orders
+      
