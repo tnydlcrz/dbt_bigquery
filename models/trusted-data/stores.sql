@@ -1,4 +1,3 @@
-
 {{ config(materialized="table") }} --- se regenera toda la tabla, no es incremental ni snapshot
 
 select 
@@ -11,14 +10,3 @@ store_latitude,
 store_longitude
 from {{ source('delivery_raw', 'stores') }} -- codigo jinja que configura dinamicamente el nombre de la bd, esqueqma y tabla
 where store_id is not null
-
-
-
-
-/*
-{{ config(materialized="table") }}
-
-SELECT
-   *
-FROM {{ source('delivery_raw', 'stores') }}
-*/
