@@ -4,7 +4,7 @@ models:
   - name: dim_time
     description: Dimension de Tiempo
     config:
-      schema: service_data_tony2
+      schema: service_data_norb
     columns:
       - name: date
         description: Fecha
@@ -27,7 +27,7 @@ models:
   - name: fact_orders
     description: Datamart de Ordenes - Delivery
     config:
-      schema: service_data_tony2
+      schema: service_data_norb
     columns:
       - name: date
         description: Fecha de la orden (ORDER_MOMENT_CREATED)
@@ -115,7 +115,7 @@ models:
   - name: dim_channels
     description: Dimension de Canales
     config:
-      schema: service_data_tony2
+      schema: service_data_norb
     columns:
       - name: channel_id
         description: Id de Canal
@@ -134,7 +134,7 @@ models:
   - name: dim_drivers
     description: Dimesion de Drivers
     config:
-      schema: service_data_tony2
+      schema: service_data_norb
     columns:
       - name: driver_id
         description: Id del Drive
@@ -154,7 +154,7 @@ models:
   - name: dim_payments
     description: Dimesion de Drivers
     config:
-      schema: service_data_tony2
+      schema: service_data_norb
     columns:
       - name: payment_order_id
         description: Id de la Orden
@@ -169,7 +169,7 @@ models:
   - name: dim_stores
     description: Dimesion de Stores y Hubs
     config:
-      schema: service_data_tony2
+      schema: service_data_norb
     columns:
       - name: store_id
         description: Id de la Tienda
