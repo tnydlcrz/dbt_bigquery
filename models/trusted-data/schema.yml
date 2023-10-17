@@ -3,7 +3,7 @@ version: 2
 models:
   - name: stores
     config:
-      schema: trusted_data_tony2
+      schema: trusted_data_norb
     columns:
       - name: store_id
         description: Id de la Tienda
@@ -29,7 +29,7 @@ models:
 
   - name: drivers
     config:
-      schema: trusted_data_tony2
+      schema: trusted_data_norb
     columns:
       - name: driver_id
         description: Id del Drive
@@ -47,7 +47,7 @@ models:
 
   - name: channels
     config:
-      schema: trusted_data_tony2
+      schema: trusted_data_norb
     columns:
       - name: channel_id
         description: Id del Canal
@@ -65,7 +65,7 @@ models:
 
   - name: deliveries
     config:
-      schema: trusted_data_tony2
+      schema: trusted_data_norb
     columns:
       - name: delivery_id
         description: Id del Delivery
@@ -89,7 +89,7 @@ models:
 
   - name: hubs
     config:
-      schema: trusted_data_tony2
+      schema: trusted_data_norb
     columns:
       - name: hub_id
         description: Id del Hub
@@ -115,7 +115,7 @@ models:
 
   - name: orders
     config:
-      schema: trusted_data_tony2
+      schema: trusted_data_norb
     columns:
       - name: order_id
         description: Id de la Orden
@@ -199,7 +199,7 @@ models:
 
   - name: payments
     config:
-      schema: trusted_data_tony2
+      schema: trusted_data_norb
     columns:
       - name: payment_id
         description: Id del Payment
